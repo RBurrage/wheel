@@ -3,3 +3,15 @@ window.onload = function() {
   TweenMax.staggerFrom('.module', .5, {opacity:0, delay:0.5},0.1)
 }
 
+var solutions = document.querySelectorAll('.solution');
+var modules = document.querySelectorAll('.module');
+
+solutions.forEach(function(solution) {
+    solution.addEventListener('mouseover', () => {
+        solution.classList.add('active_bg');
+    })    
+    solution.addEventListener('mouseout', () => {
+      solution.classList.remove('active_bg');
+  })
+})
+
