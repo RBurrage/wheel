@@ -6,7 +6,6 @@ window.onload = function() {
 var solutions = document.querySelectorAll('.solution');
 var modules = document.querySelectorAll('.module');
 var groups = document.querySelectorAll('.group');
-var both = document.querySelectorAll('.both');
 
 groups.forEach(function(group) {
    console.log(group)
@@ -15,7 +14,7 @@ groups.forEach(function(group) {
         solution.classList.add('active_bg');
         })    
         solution.addEventListener('mouseout', () => {
-          solution.classList.remove('active_bg');
+        solution.classList.remove('active_bg');
       })
     })
 })
