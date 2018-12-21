@@ -10,6 +10,7 @@ html, body {
 }
 
 /*
+COLOR PALETTE
 dark gray: #c3bfbb;
 light gray: #e6e4e2;
 seafoam: rgb(132, 175, 183);
@@ -48,6 +49,6 @@ seafoam: rgb(132, 175, 183);
         opacity: 0.25;
     }
     100% {
-        opacity: 1.0
+        opacity: 1.0;
     }
 }

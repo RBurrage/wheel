@@ -5,13 +5,17 @@ window.onload = function() {
 
 var solutions = document.querySelectorAll('.solution');
 var modules = document.querySelectorAll('.module');
+var groups = document.querySelectorAll('.group');
+var both = document.querySelectorAll('.both');
 
-solutions.forEach(function(solution) {
-    solution.addEventListener('mouseover', () => {
+groups.forEach(function(group) {
+   console.log(group)
+    solutions.forEach(function(solution) {
+        solution.addEventListener('mouseover', () => {
         solution.classList.add('active_bg');
-    })    
-    solution.addEventListener('mouseout', () => {
-      solution.classList.remove('active_bg');
-  })
+        })    
+        solution.addEventListener('mouseout', () => {
+          solution.classList.remove('active_bg');
+      })
+    })
 })
-
