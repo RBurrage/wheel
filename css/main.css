@@ -42,8 +42,8 @@ html, body {
     fill: #e6e4e2
 }
 
-.active_bg {
-    fill:rgb(132, 175, 183);
+.active_bg, .core_active_bg {
+    fill:rgb(83, 133, 141);
     animation: shadeBg 1s;
 }
 
