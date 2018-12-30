@@ -24,9 +24,11 @@ secondGroups.forEach(function (secondGroup) {
         module.classList.toggle('active_bg');
 
         if (solution.classList.contains('active_bg')) {
-            core.classList.add('core_active_bg');
+            core.classList.add('active_bg');
             solution.classList.remove('hovered_bg');
             module.classList.remove('hovered_bg');
+        }else{
+            core.classList.remove('active_bg');
         }
     })
 
