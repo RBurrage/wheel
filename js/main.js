@@ -15,24 +15,6 @@ secondGroups.forEach(function (secondGroup) {
     secondGroup.addEventListener('mouseover', () => {
         solution.classList.add('hovered_bg');
         module.classList.add('hovered_bg');
-    })
-    secondGroup.addEventListener('mouseout', () => {
-        solution.classList.remove('hovered_bg');
-        module.classList.remove('hovered_bg');
-    })
-
-    secondGroup.addEventListener('click', () => {
-        solution.classList.toggle('active_bg');
-        module.classList.toggle('active_bg');
-
-        if (solution.classList.contains('active_bg')) {
-            core.classList.add('active_bg');
-            solution.classList.remove('hovered_bg');
-            module.classList.remove('hovered_bg');
-        }
-        if (document.querySelector(".sols-and-mods .active_bg") == null) {
-            core.classList.remove('active_bg');
-        }
 
         switch (secondGroup) {
             case secondGroups[0]: {
@@ -82,6 +64,25 @@ secondGroups.forEach(function (secondGroup) {
                 <p>Quisque sociis integer vehicula mauris semper eu eget sed sociosqu magna libero, in laoreet nibh ligula justo varius curae metus inceptos. Netus cum suscipit montes commodo nulla egestas viverra ultrices, ad blandit sed vulputate dignissim venenatis orci. Risus vivamus varius mauris fermentum imperdiet rhoncus hendrerit.</p>`
                 break;
             }
+        }
+    })
+    secondGroup.addEventListener('mouseout', () => {
+        solution.classList.remove('hovered_bg');
+        module.classList.remove('hovered_bg');
+        productInfo.innerHTML = '';
+    })
+
+    secondGroup.addEventListener('click', () => {
+        solution.classList.toggle('active_bg');
+        module.classList.toggle('active_bg');
+
+        if (solution.classList.contains('active_bg')) {
+            core.classList.add('active_bg');
+            solution.classList.remove('hovered_bg');
+            module.classList.remove('hovered_bg');
+        }
+        if (document.querySelector(".sols-and-mods .active_bg") == null) {
+            core.classList.remove('active_bg');
         }
     })
 })

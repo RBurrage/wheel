@@ -7,24 +7,31 @@ seafoam: rgb(132, 175, 183);
 
 html, body {
     font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
 }
 
 .container-wrap {
     display: flex;
     justify-content: center;
-    width: 100vw;
+    width: 90%;
     height: 100vh;
+    padding: 40px;
 }
 
 #wheel {
-    width: 600px;
+    width: 500px;
 }
 
 #product-info {
-    padding: 100px 200px 0 100px;
-    width: 30%;
+    padding: 30px;
+    box-sizing: border-box;
 }
 
+
+#product-info {
+    width: 50%;
+
+}
 .core_background {
     fill:rgb(132, 175, 183);
 }
