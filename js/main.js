@@ -21,47 +21,103 @@ secondGroups.forEach(function (secondGroup) {
                 productInfo.innerHTML = `
                 <h3>Complaints Management for Life Sciences</h3>
                 
-                <p>Lorem ipsum dolor sit amet consectetur adipiscing elit luctus iaculis ligula phasellus curabitur fringilla orci, scelerisque integer felis interdum nunc vehicula libero vitae neque per dapibus nisi montes. Sagittis hac lacus penatibus laoreet nulla lectus massa posuere vulputate tempus, ultricies ut neque fringilla mauris velit sem libero parturient porta, felis pellentesque platea vestibulum nullam faucibus malesuada vehicula netus. Cursus nam curabitur cubilia ultricies fringilla, imperdiet varius ad integer, tellus iaculis orci ornare.</p>
+                <p>Turn regulatory and compliance requirements from an obligation into strategic advantage. Automate  Complaints Handling and regulatory submission in compliance with 21 CFR Part 11 guidelines.</p>
                 
-                <p>Quisque sociis integer vehicula mauris semper eu eget sed sociosqu magna libero, in laoreet nibh ligula justo varius curae metus inceptos. Netus cum suscipit montes commodo nulla egestas viverra ultrices, ad blandit sed vulputate dignissim venenatis orci. Risus vivamus varius mauris fermentum imperdiet rhoncus hendrerit, sodales nunc quam montes per pharetra ultricies laoreet, felis facilisi venenatis etiam elementum auctor.</p>`
+                <p>Process Modules</p>
+                <ul>
+                <li>21 CFR Part 11</li>
+                <li>Complaint Handling</li>
+                <li>eSubmission Gateway</li>
+                `
                 break;
             }
             case secondGroups[1]: {
                 productInfo.innerHTML = `<h3>Quality by Design</h3>
                 
-                <p>Sagittis hac lacus penatibus laoreet nulla lectus massa posuere vulputate tempus, ultricies ut neque fringilla mauris velit sem libero parturient porta, felis pellentesque platea vestibulum nullam faucibus malesuada vehicula netus. Cursus nam curabitur cubilia ultricies fringilla, imperdiet varius ad integer, tellus iaculis orci ornare.</p>
+                <p>Build a culture of quality, starting with step one of the product and service design  process. Analyze product and process  plans, establish metrics and benchmarks,  and track the most critical quality processes across an organization.</p>
                 
-                <p>Quisque sociis integer vehicula mauris semper eu eget sed sociosqu magna libero, in laoreet nibh ligula justo varius curae metus inceptos. Netus cum suscipit montes commodo nulla egestas viverra ultrices, ad blandit sed vulputate dignissim venenatis orci. Risus vivamus varius mauris fermentum imperdiet rhoncus hendrerit.</p>`
+                <p>Process Modules</p>
+                <ul>
+                <li>Advanced Quality Product Planning (APQP)</li>
+                <li>Product Specification Management</li>
+                <li>Failure Modes and Effects Analysis (FMEA)</li>
+                <li>Hazard Analysis and Critical (HACCP)</li>
+                <li>Assets, Calibration and Maintenance</li>
+                `
                 break;
             }
             case secondGroups[2]: {
                 productInfo.innerHTML = `<h3>Non-conformance Handling</h3>
                 
-                <p>Lorem ipsum dolor sit amet consectetur adipiscing elit lacus mauris rhoncus, imperdiet nascetur nibh mollis vitae dignissim iaculis tincidunt. Integer justo elementum eros aliquam semper gravida est suspendisse, donec euismod tortor quis ut taciti velit, sociis lectus fermentum metus imperdiet pharetra facilisi. Odio sociosqu cubilia hendrerit elementum tempus pharetra natoque, proin felis per nisl ut.</p>`
+                <p>Reduce customer complaints and foster continuous improvement by minimizing defects and boosting product quality.  Mitigate the cost of poor quality, minimize customer complaints and build stronger brand reputation.</p>
+                
+                <p>Process Modules</p>
+                <ul>
+                <li>Inspection & Testing</li>
+                <li>Nonconformance Reporting</li>
+                <li>Planned Deviations</li>
+                <li>Customer Feedback</li>
+                <li>Return Material Authorization</li>
+                `
                 break;
             }
             case secondGroups[4]: {
                 productInfo.innerHTML = `<h3>Supply Chain Quality</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipiscing elit potenti penatibus rutrum ante parturient, magnis nam eu ullamcorper iaculis nulla faucibus cras semper neque. Sit molestie dictum ipsum nibh nascetur consectetur phasellus volutpat, curae in pharetra euismod quam faucibus fusce, proin duis lobortis nec eget varius feugiat. </p>
+                <p>Ensure finished product quality with automated control and visibility over all elements of your supply chain, from local manufacturers to global suppliers. Track suppliers and materials, build qualitative and quantitative supplier ratings, and trigger actions to improve supplier quality.</p>
                 
-                <p>Torquent hac congue cras adipiscing quisque ullamcorper nullam rutrum fames cursus vulputate consequat, dolor neque auctor ac pulvinar lectus venenatis ante egestas pellentesque lacus. Sodales mollis habitasse mi laoreet semper facilisis bibendum, potenti elit inceptos cum lobortis mauris metus ultrices, molestie ipsum turpis pulvinar congue praesent. </p>`
+                <p>Process Modules</p>
+                <ul>
+                <li>Product Part Approval Process (PPAP)</li>
+                <li>Receiving and Inspection</li>
+                <li>Supplier Corrective Action (SCAR)</li>
+                <li>Suppliers, Materials & Chemicals </li>
+                <li>Supplier Rating</li>
+                `
                 break;
             }
             case secondGroups[3]: {
                 productInfo.innerHTML = `<h3>Health & Safety</h3>
-                <p>Vivamus integer non suscipit taciti mus etiam at primis tempor sagittis sit, euismod libero facilisi aptent elementum felis blandit cursus gravida sociis erat ante, eleifend lectus nullam dapibus netus feugiat curae curabitur est ad. Massa curae fringilla porttitor quam sollicitudin iaculis aptent leo ligula euismod dictumst, orci penatibus mauris eros etiam praesent erat volutpat posuere hac. Metus fringilla nec ullamcorper odio aliquam lacinia conubia mauris tempor, etiam ultricies proin quisque lectus sociis id tristique, integer phasellus taciti pretium adipiscing tortor sagittis ligula.</p>`
+                <p>Move from a reactive problem-based approach and build a culture of workplace safety with a proactive, risk-based program that minimizes hazards in the workplace.</p>
+                
+                <p>Process Modules</p>
+                <ul>
+                <li>Aspects, Objects & Targets</li>
+                <li>Permit Control</li>
+                <li>Chemical Inventory</li>
+                <li>Waste Water Management</li>
+                <li>Sustainability Reporting</li>
+                <li>Emissions Management</li>
+                `
                 break;
             }
             case secondGroups[5]: {
                 productInfo.innerHTML = `<h3>Environmental Management</h3>
-                <p>Torquent hac congue cras adipiscing quisque ullamcorper nullam rutrum fames cursus vulputate consequat, dolor neque auctor ac pulvinar lectus venenatis ante egestas pellentesque lacus. Sodales mollis habitasse mi laoreet semper facilisis bibendum, potenti elit inceptos cum lobortis mauris metus ultrices, molestie ipsum turpis pulvinar congue praesent.</p>
+                <p>Make environmental management a strategic business priority. Identify environmental impact targets, log permit information, oversee waste water and emissions management  and track sustainability initiatives.</p>
                 
-                <p>Quisque sociis integer vehicula mauris semper eu eget sed sociosqu magna libero, in laoreet nibh ligula justo varius curae metus inceptos. Netus cum suscipit montes commodo nulla egestas viverra ultrices, ad blandit sed vulputate dignissim venenatis orci. Risus vivamus varius mauris fermentum imperdiet rhoncus hendrerit.</p>`
+                <p>Process Modules</p>
+                <ul>
+                <li>Aspects, Objects & Targets</li>
+                <li>Permit Control</li>
+                <li>Chemical Inventory</li>
+                <li>Waste Water Management</li>
+                <li>Sustainability Reporting</li>
+                <li>Emissions Management</li>
+                `
                 break;
             }
             case secondGroups[6]: {
                 productInfo.innerHTML = `<h3>Enterprise Risk Management</h3>
-                <p>Quisque sociis integer vehicula mauris semper eu eget sed sociosqu magna libero, in laoreet nibh ligula justo varius curae metus inceptos. Netus cum suscipit montes commodo nulla egestas viverra ultrices, ad blandit sed vulputate dignissim venenatis orci. Risus vivamus varius mauris fermentum imperdiet rhoncus hendrerit.</p>`
+                <p>Automate several key quality processes that allow companies to incorporate risk-based thinking into organizational planning and operational monitoring. Identify and assess risks companywide and leverage risk data to drive long-term mitigation and improvement.</p>
+                
+                <p>Process Modules</p>
+                <ul>
+                <li>Compliance Obligations</li>
+                <li>Quality Records</li>
+                <li>Meetings Management</li>
+                <li>Monitoring & Inspection</li>
+                <li>Risk Surveys</li>
+                <li>Emergency Preparedness</li>
+                `
                 break;
             }
         }
@@ -69,9 +125,13 @@ secondGroups.forEach(function (secondGroup) {
     secondGroup.addEventListener('mouseout', () => {
         solution.classList.remove('hovered_bg');
         module.classList.remove('hovered_bg');
-        productInfo.innerHTML = '';
+        productInfo.innerHTML = `        
+        <h3>ETQ Platform at the Core of our QMS Software</h3>
+        <h3>Built on the ETQ Platform are our Solution Sets—Best-in-Class Processes Work-Flows</h3>
+        `;
     })
 
+    /*
     secondGroup.addEventListener('click', () => {
         solution.classList.toggle('active_bg');
         module.classList.toggle('active_bg');
@@ -84,5 +144,5 @@ secondGroups.forEach(function (secondGroup) {
         if (document.querySelector(".sols-and-mods .active_bg") == null) {
             core.classList.remove('active_bg');
         }
-    })
+    })*/
 })
