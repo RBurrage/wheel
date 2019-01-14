@@ -27,7 +27,6 @@ html, body {
     box-sizing: border-box;
 }
 
-
 #product-info {
     width: 50%;
 
@@ -63,6 +62,9 @@ html, body {
     animation: shadeBg 1s;
 }
 
+.solution:hover, .module:hover {
+    cursor: pointer;
+}
 @keyframes shadeBg {
     0% {
         opacity: 0.25;
